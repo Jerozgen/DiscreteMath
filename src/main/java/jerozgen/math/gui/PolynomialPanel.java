@@ -30,7 +30,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(help);
 
-        JButton ADD_PP_P = new JButton("ADD_PP_P");
+        JButton ADD_PP_P = new JButton("A + B");
         ADD_PP_P.setToolTipText("Сложение многочленов");
         ADD_PP_P.addActionListener(event -> {
             try {
@@ -41,7 +41,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(ADD_PP_P);
 
-        JButton SUB_PP_P = new JButton("SUB_PP_P");
+        JButton SUB_PP_P = new JButton("A – B");
         SUB_PP_P.setToolTipText("Вычитание многочленов");
         SUB_PP_P.addActionListener(event -> {
             try {
@@ -52,7 +52,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(SUB_PP_P);
 
-        JButton MUL_PQ_P = new JButton("MUL_PQ_P");
+        JButton MUL_PQ_P = new JButton("A × B (B ∈ ℚ)");
         MUL_PQ_P.setToolTipText("Умножение многочлена на дробь");
         MUL_PQ_P.addActionListener(event -> {
             try {
@@ -64,7 +64,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(MUL_PQ_P);
 
-        JButton MUL_Pxk_P = new JButton("MUL_Pxk_P");
+        JButton MUL_Pxk_P = new JButton("A × x^k");
         MUL_Pxk_P.setToolTipText("Умножение многочлена на x^k");
         MUL_Pxk_P.addActionListener(event -> {
             try {
@@ -80,7 +80,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(MUL_Pxk_P);
 
-        JButton LED_P_Q = new JButton("LED_P_Q");
+        JButton LED_P_Q = new JButton("Старший коэффициент A");
         LED_P_Q.setToolTipText("Старший коэффициент многочлена");
         LED_P_Q.addActionListener(event -> {
             try {
@@ -91,7 +91,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(LED_P_Q);
 
-        JButton DEG_P_N = new JButton("DEG_P_N");
+        JButton DEG_P_N = new JButton("Степень A");
         DEG_P_N.setToolTipText("Степень многочлена");
         DEG_P_N.addActionListener(event -> {
             try {
@@ -102,7 +102,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(DEG_P_N);
 
-        JButton FAC_P_Q = new JButton("FAC_P_Q");
+        JButton FAC_P_Q = new JButton("Общий коэффициент A");
         FAC_P_Q.setToolTipText("Вынесение из многочлена НОК знаменателей коэффициентов и НОД числителей");
         FAC_P_Q.addActionListener(event -> {
             try {
@@ -113,7 +113,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(FAC_P_Q);
 
-        JButton MUL_PP_P = new JButton("MUL_PP_P");
+        JButton MUL_PP_P = new JButton("A × B");
         MUL_PP_P.setToolTipText("Умножение многочленов");
         MUL_PP_P.addActionListener(event -> {
             try {
@@ -124,7 +124,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(MUL_PP_P);
 
-        JButton DIV_PP_P = new JButton("DIV_PP_P");
+        JButton DIV_PP_P = new JButton("A div B");
         DIV_PP_P.setToolTipText("Частное от деления многочленов с остатком");
         DIV_PP_P.addActionListener(event -> {
             try {
@@ -135,7 +135,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(DIV_PP_P);
 
-        JButton MOD_PP_P = new JButton("MOD_PP_P");
+        JButton MOD_PP_P = new JButton("A mod B");
         MOD_PP_P.setToolTipText("Остаток от деления многочленов с остатком");
         MOD_PP_P.addActionListener(event -> {
             try {
@@ -146,7 +146,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(MOD_PP_P);
 
-        JButton GCF_PP_P = new JButton("GCF_PP_P");
+        JButton GCF_PP_P = new JButton("НОД(A, B)");
         GCF_PP_P.setToolTipText("НОД многочленов");
         GCF_PP_P.addActionListener(event -> {
             try {
@@ -157,7 +157,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(GCF_PP_P);
 
-        JButton DER_P_P = new JButton("DER_P_P");
+        JButton DER_P_P = new JButton("A’");
         DER_P_P.setToolTipText("Производная многочлена");
         DER_P_P.addActionListener(event -> {
             try {
@@ -168,7 +168,7 @@ public class PolynomialPanel extends JPanel {
         });
         add(DER_P_P);
 
-        JButton NMR_P_P = new JButton("NMR_P_P");
+        JButton NMR_P_P = new JButton("Корни A в простые");
         NMR_P_P.setToolTipText("Преобразование многочлена — кратные корни в простые");
         NMR_P_P.addActionListener(event -> {
             try {

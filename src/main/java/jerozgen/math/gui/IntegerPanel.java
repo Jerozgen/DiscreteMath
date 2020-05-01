@@ -22,7 +22,7 @@ public class IntegerPanel extends JPanel {
         result.setEditable(false);
         add(result);
 
-        JButton ABS_Z_N = new JButton("ABS_Z_N");
+        JButton ABS_Z_N = new JButton("|A|");
         ABS_Z_N.setToolTipText("Абсолютная величина числа");
         ABS_Z_N.addActionListener(event -> {
             try {
@@ -33,7 +33,7 @@ public class IntegerPanel extends JPanel {
         });
         add(ABS_Z_N);
 
-        JButton POZ_Z_D = new JButton("POZ_Z_D");
+        JButton POZ_Z_D = new JButton("A ? 0");
         POZ_Z_D.setToolTipText("Определение положительности числа");
         POZ_Z_D.addActionListener(event -> {
             try {
@@ -54,7 +54,7 @@ public class IntegerPanel extends JPanel {
         });
         add(POZ_Z_D);
 
-        JButton MUL_ZM_Z = new JButton("MUL_ZM_Z");
+        JButton MUL_ZM_Z = new JButton("A × (-1)");
         MUL_ZM_Z.setToolTipText("Умножение числа на -1");
         MUL_ZM_Z.addActionListener(event -> {
             try {
@@ -65,7 +65,7 @@ public class IntegerPanel extends JPanel {
         });
         add(MUL_ZM_Z);
 
-        JButton ADD_ZZ_Z = new JButton("ADD_ZZ_Z");
+        JButton ADD_ZZ_Z = new JButton("A + B");
         ADD_ZZ_Z.setToolTipText("Сложение чисел");
         ADD_ZZ_Z.addActionListener(event -> {
             try {
@@ -76,7 +76,7 @@ public class IntegerPanel extends JPanel {
         });
         add(ADD_ZZ_Z);
 
-        JButton SUB_ZZ_Z = new JButton("SUB_ZZ_Z");
+        JButton SUB_ZZ_Z = new JButton("A – B");
         SUB_ZZ_Z.setToolTipText("Вычитание чисел");
         SUB_ZZ_Z.addActionListener(event -> {
             try {
@@ -87,7 +87,7 @@ public class IntegerPanel extends JPanel {
         });
         add(SUB_ZZ_Z);
 
-        JButton MUL_ZZ_Z = new JButton("MUL_ZZ_Z");
+        JButton MUL_ZZ_Z = new JButton("A × B");
         MUL_ZZ_Z.setToolTipText("Умножение чисел");
         MUL_ZZ_Z.addActionListener(event -> {
             try {
@@ -98,7 +98,7 @@ public class IntegerPanel extends JPanel {
         });
         add(MUL_ZZ_Z);
 
-        JButton DIV_ZZ_Z = new JButton("DIV_ZZ_Z");
+        JButton DIV_ZZ_Z = new JButton("A div B");
         DIV_ZZ_Z.setToolTipText("Частное от деления целого на натуральное с остатком");
         DIV_ZZ_Z.addActionListener(event -> {
             try {
@@ -109,7 +109,7 @@ public class IntegerPanel extends JPanel {
         });
         add(DIV_ZZ_Z);
 
-        JButton MOD_ZZ_Z = new JButton("MOD_ZZ_Z");
+        JButton MOD_ZZ_Z = new JButton("A mod B");
         MOD_ZZ_Z.setToolTipText("Остаток от деления целого на натуральное с остатком");
         MOD_ZZ_Z.addActionListener(event -> {
             try {

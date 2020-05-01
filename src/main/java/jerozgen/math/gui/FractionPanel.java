@@ -28,7 +28,7 @@ public class FractionPanel extends JPanel {
         });
         add(help);
 
-        JButton RED_Q_Q = new JButton("RED_Q_Q");
+        JButton RED_Q_Q = new JButton("Сократить A");
         RED_Q_Q.setToolTipText("Сокращение дроби");
         RED_Q_Q.addActionListener(event -> {
             try {
@@ -39,7 +39,7 @@ public class FractionPanel extends JPanel {
         });
         add(RED_Q_Q);
 
-        JButton INT_Q_B = new JButton("INT_Q_B");
+        JButton INT_Q_B = new JButton("A ∈ ℤ?");
         INT_Q_B.setToolTipText("Проверка на целое");
         INT_Q_B.addActionListener(event -> {
             try {
@@ -52,7 +52,7 @@ public class FractionPanel extends JPanel {
         });
         add(INT_Q_B);
 
-        JButton ADD_QQ_Q = new JButton("ADD_QQ_Q");
+        JButton ADD_QQ_Q = new JButton("A + B");
         ADD_QQ_Q.setToolTipText("Сложение дробей");
         ADD_QQ_Q.addActionListener(event -> {
             try {
@@ -63,7 +63,7 @@ public class FractionPanel extends JPanel {
         });
         add(ADD_QQ_Q);
 
-        JButton SUB_QQ_Q = new JButton("SUB_QQ_Q");
+        JButton SUB_QQ_Q = new JButton("A – B");
         SUB_QQ_Q.setToolTipText("Вычитание дробей");
         SUB_QQ_Q.addActionListener(event -> {
             try {
@@ -74,7 +74,7 @@ public class FractionPanel extends JPanel {
         });
         add(SUB_QQ_Q);
 
-        JButton MUL_QQ_Q = new JButton("MUL_QQ_Q");
+        JButton MUL_QQ_Q = new JButton("A × B");
         MUL_QQ_Q.setToolTipText("Умножение дробей");
         MUL_QQ_Q.addActionListener(event -> {
             try {
@@ -85,7 +85,7 @@ public class FractionPanel extends JPanel {
         });
         add(MUL_QQ_Q);
 
-        JButton DIV_QQ_Q = new JButton("DIV_QQ_Q");
+        JButton DIV_QQ_Q = new JButton("A / B");
         DIV_QQ_Q.setToolTipText("Деление дробей ");
         DIV_QQ_Q.addActionListener(event -> {
             try {

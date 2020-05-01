@@ -21,7 +21,7 @@ public class NaturalPanel extends JPanel {
         result.setEditable(false);
         add(result);
 
-        JButton COM_NN_D = new JButton("COM_NN_D");
+        JButton COM_NN_D = new JButton("A ? B");
         COM_NN_D.setToolTipText("Сравнение чисел");
         COM_NN_D.addActionListener(event -> {
             try {
@@ -42,7 +42,7 @@ public class NaturalPanel extends JPanel {
         });
         add(COM_NN_D);
 
-        JButton NZER_N_B = new JButton("NZER_N_B");
+        JButton NZER_N_B = new JButton("A = 0?");
         NZER_N_B.setToolTipText("Проверка на ноль");
         NZER_N_B.addActionListener(event -> {
             try {
@@ -55,7 +55,7 @@ public class NaturalPanel extends JPanel {
         });
         add(NZER_N_B);
 
-        JButton ADD_1N_N = new JButton("ADD_1N_N");
+        JButton ADD_1N_N = new JButton("A + 1");
         ADD_1N_N.setToolTipText("Добавление единицы к числу");
         ADD_1N_N.addActionListener(event -> {
             try {
@@ -66,7 +66,7 @@ public class NaturalPanel extends JPanel {
         });
         add(ADD_1N_N);
 
-        JButton ADD_NN_N = new JButton("ADD_NN_N");
+        JButton ADD_NN_N = new JButton("A + B");
         ADD_NN_N.setToolTipText("Сложение чисел");
         ADD_NN_N.addActionListener(event -> {
             try {
@@ -77,7 +77,7 @@ public class NaturalPanel extends JPanel {
         });
         add(ADD_NN_N);
 
-        JButton SUB_NN_N = new JButton("SUB_NN_N");
+        JButton SUB_NN_N = new JButton("|A – B|");
         SUB_NN_N.setToolTipText("Абсолютная разность чисел");
         SUB_NN_N.addActionListener(event -> {
             try {
@@ -88,7 +88,7 @@ public class NaturalPanel extends JPanel {
         });
         add(SUB_NN_N);
 
-        JButton MUL_ND_N = new JButton("MUL_ND_N");
+        JButton MUL_ND_N = new JButton("A × d");
         MUL_ND_N.setToolTipText("Умножение числа на цифру");
         MUL_ND_N.addActionListener(event -> {
             try {
@@ -104,7 +104,7 @@ public class NaturalPanel extends JPanel {
         });
         add(MUL_ND_N);
 
-        JButton MUL_Nk_N = new JButton("MUL_Nk_N");
+        JButton MUL_Nk_N = new JButton("A × 10^k");
         MUL_Nk_N.setToolTipText("Умножение числа на 10^k");
         MUL_Nk_N.addActionListener(event -> {
             try {
@@ -120,7 +120,7 @@ public class NaturalPanel extends JPanel {
         });
         add(MUL_Nk_N);
 
-        JButton MUL_NN_N = new JButton("MUL_NN_N");
+        JButton MUL_NN_N = new JButton("A × B");
         MUL_NN_N.setToolTipText("Умножение чисел");
         MUL_NN_N.addActionListener(event -> {
             try {
@@ -131,7 +131,7 @@ public class NaturalPanel extends JPanel {
         });
         add(MUL_NN_N);
 
-        JButton DIV_NN_Dk = new JButton("DIV_NN_Dk");
+        JButton DIV_NN_Dk = new JButton("1-я цифра деления на 10^k");
         DIV_NN_Dk.setToolTipText("Вычисление первой цифры деления чисел, помноженной на 10^k, где k — номер позиции " +
                 "этой цифры (номер считается с нуля)");
         DIV_NN_Dk.addActionListener(event -> {
@@ -144,7 +144,7 @@ public class NaturalPanel extends JPanel {
         });
         add(DIV_NN_Dk);
 
-        JButton DIV_NN_N = new JButton("DIV_NN_N");
+        JButton DIV_NN_N = new JButton("A div B");
         DIV_NN_N.setToolTipText("Частное от деления чисел с остатком");
         DIV_NN_N.addActionListener(event -> {
             try {
@@ -155,7 +155,7 @@ public class NaturalPanel extends JPanel {
         });
         add(DIV_NN_N);
 
-        JButton MOD_NN_N = new JButton("MOD_NN_N");
+        JButton MOD_NN_N = new JButton("A mod B");
         MOD_NN_N.setToolTipText("Остаток от деления чисел с остатком");
         MOD_NN_N.addActionListener(event -> {
             try {
@@ -166,7 +166,7 @@ public class NaturalPanel extends JPanel {
         });
         add(MOD_NN_N);
 
-        JButton GCF_NN_N = new JButton("GCF_NN_N");
+        JButton GCF_NN_N = new JButton("НОД(A, B)");
         GCF_NN_N.setToolTipText("НОД чисел");
         GCF_NN_N.addActionListener(event -> {
             try {
@@ -177,7 +177,7 @@ public class NaturalPanel extends JPanel {
         });
         add(GCF_NN_N);
 
-        JButton LCM_NN_N = new JButton("LCM_NN_N");
+        JButton LCM_NN_N = new JButton("НОК(A, B)");
         LCM_NN_N.setToolTipText("НОК чисел");
         LCM_NN_N.addActionListener(event -> {
             try {
