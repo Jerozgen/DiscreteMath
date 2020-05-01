@@ -136,14 +136,9 @@ public class Integer {
     // Частное от деления целого на натуральное с остатком.
     // Ганюшкин Тимофей, 9374
     public Integer divide(Natural b) {
-        Natural absA = this.abs();
-        // Если оба числа одного знака, результат положителен.
-        if (this.getPositivity() == POSITIVE)
-            return absA.divide(b).toInteger();
-        // Если оба числа разных знаков, результат отрицателен и меньше на единицу (если остаток не равен нулю).
-        if (absA.remainder(b).isNotZero())
-            return absA.divide(b).addOne().toInteger().negate();
-        return absA.divide(b).toInteger().negate();
+        if (this.getPositivity() == NEGATIVE) throw new ArithmeticException("Деление на большее: " + this + " < " + b);
+
+        return this.abs().divide(b).toInteger();
     }
 
 

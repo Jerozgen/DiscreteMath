@@ -279,9 +279,7 @@ public class Natural {
     // Ганюшкин Тимофей, 9374
     public Natural getScaledFirstQuotientDigit(Natural b) {
         if (!b.isNotZero()) throw new ArithmeticException("Деление на ноль");
-
-        // Если первое меньше второго, возвращаем ноль.
-        if (this.compareTo(b) == LESS) return ZERO_VALUE;
+        if (this.compareTo(b) == LESS) throw new ArithmeticException("Деление на большее: " + this + " < " + b);
 
         // Копируем начальные цифры первого числа в количестве цифр второго числа.
         int[] cloneDigits = new int[b.digits.length];
